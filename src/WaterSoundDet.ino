@@ -1,3 +1,6 @@
+// SVM baased water sound detector
+//
+
 float w[] = { 
   -1,   -1,   -1,   -1,   -1,   -1,
   -1,   -1,   -1,   -1,   -1,   -1,

@@ -1,5 +1,5 @@
 # HandwashingTimer
-[English] https://www.github.com/yutakau/HandwashintTimer/README.md
+[English] (./README.md)
 
 30秒間しっかり手洗いをするためのタイマーです。
 水の音を検出して、カウントを開始します。
@@ -22,8 +22,8 @@ Twitter -> https://twitter.com/i/status/1249699639462211584
  が必要です。
 
 ## しくみ
-　水音は、ホワイトノイズに近い特徴的な周波数スペクトルを持ちます。そこで、マイク音をFFTで周波数領域に変換したデータを、
-  Support Vetor Machineで比較して、水音かどうかを判定します。
+　水音は、ホワイトノイズに近い特徴的な周波数スペクトルを持ちます。マイク音をFFTで周波数領域に変換したデータを、
+  Support Vetor Machineへ入力して、水音かどうかを判定します。
   
 ## Author
  Yutaka Usui (https://github.com/yutakau)

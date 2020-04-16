@@ -6,7 +6,7 @@
 #include <M5StickC.h>
 #include <driver/i2s.h>
 #include "arduinoFFT.h"
-//#include "img.c"
+
 
 #define PIN_CLK  0
 #define PIN_DATA 34
@@ -82,6 +82,10 @@ void setup() {
   i2sInit();
   xTaskCreatePinnedToCore(mic_record_task,"mic_record_task",2048,NULL,1,NULL,1);
   detcnt = 0;
+
+  M5.Lcd.fillScreen(WHITE);
+  delay(500);
+  M5.Lcd.fillScreen(BLACK);
 }
 
 void fft(){
@@ -185,8 +189,6 @@ void loop(){
       start=0;
       M5.Lcd.fillScreen(BLACK);
     }
-
-    
   }
   
 }

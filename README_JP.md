@@ -16,11 +16,11 @@ Twitter -> https://twitter.com/i/status/1249699639462211584
  ----------|---
  M5Stick-C | 1 
 
-##　使用ライブラリ
+## 使用ライブラリ
 　ArduinoFFT (https://github.com/kosme/arduinoFFT)
  が必要です。
 
-##　詳しいしくみ
+## しくみ
 　水音は、ホワイトノイズに近い特徴的な周波数スペクトルを持ちます。そこで、マイク音をFFTで周波数領域に変換したデータを、
   Support Vetor Machineで比較して、水音かどうかを判定します。
   

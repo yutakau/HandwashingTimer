@@ -1,4 +1,5 @@
 # HandwashingTimer
+[English] https://www.github.com/yutakau/HandwashintTimer/README.md
 
 30秒間しっかり手洗いをするためのタイマーです。
 水の音を検出して、カウントを開始します。

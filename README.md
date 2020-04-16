@@ -1,10 +1,10 @@
 # HandwashingTimer
-日本語 /README_JP.md
+日本語(./README_JP.md)
 
 30 sec timer for hand washing with water sound detector.
 
 ## Demo Video
-Twitter -> https://twitter.com/i/status/1249699639462211584
+Twitter -> (https://twitter.com/i/status/1249699639462211584)
 
 ---
 
